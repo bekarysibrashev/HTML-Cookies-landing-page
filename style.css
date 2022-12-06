@@ -1,0 +1,339 @@
+* {
+    margin:0;
+    padding: 0;
+        
+}
+
+.nav{
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+.nav-content{
+    width: 550px;
+    height: 300px;
+}
+.head-photo{
+    margin-left: 80px;
+    width: 80%;
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav-photo {
+    position: relative;
+    left:300px;
+    bottom:180px
+}
+
+.label{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.midtext{
+    background-color:black;
+    width:553px;
+    color:white;
+    padding:30px;
+
+}
+
+.service span{
+    font-size:40px;
+    position:relative;
+    top:4px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.first{
+    margin-top: 80px;
+}
+.service{
+
+    margin-left:300px;
+    margin-right: 300px;
+    margin-bottom: 40px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px
+}
+
+hr{
+    margin-top: 17px;
+}
+
+.top-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentphoto{
+    position: relative;
+    bottom:120px
+}
+
+.content-wrapper1{
+    text-align: right;
+}
+
+
+.topdivider{
+    background-color: black;
+    width: 51.3%;
+    height: 470px;
+}
+
+.sec{
+    color: white;
+    padding-top: 70px;
+    width:400px;
+}
+
+.sec hr{
+    margin-top: 9px;
+    margin-left: 3px;
+    margin-bottom: 40px;
+}
+
+.sec p{
+    font-size: 10px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.sec button{
+    background-color:rgb(255, 255, 255);
+    margin-top: 25px;
+    width: 140px;
+    height: 30px;
+}
+
+.photodivider{
+    display: flex;
+    flex-direction: row;
+}
+
+.midcontent{
+    display: flex;
+}
+
+
+.cookies{
+    display: flex;
+    flex-direction: row;
+    padding-left: 270px 
+}
+
+.cookie{
+    width: 270px;
+    height: 300px;
+    border: solid 3px black;
+    margin: 120px 20px;
+}
+
+.cookie img{
+    position: relative;
+    left:32px;
+    bottom:90px
+}
+
+.cookie h3{
+    position: relative;
+    left: 87px;
+    bottom: 100px
+}
+
+.cookie p{
+    position: relative;
+    bottom: 80px;
+    text-align: center;
+}
+
+
+.divimg img{
+    width: 100%;
+    filter: brightness(50%);
+  
+}
+
+.divider{
+    position: relative;
+    bottom:430px;
+    display: flex;
+    margin-left: 300px;
+    margin-bottom: -190px;
+
+
+}
+
+.divider-content{
+    width: 400px;
+    margin: 30px;
+    color: white;
+}
+
+.divider span{
+    font-size: 100px;
+}
+
+
+.contentwrapper{
+    margin-left: 300px;
+}
+
+.contentwrapper p{
+    width: 900px;
+}
+
+.line{
+    height: 2px;
+    width: 200px;
+    background-color: black;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+.eventcontent{
+    display: flex;
+}
+.eventtextunderline{
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 30px;
+    
+}
+
+.linecontent{
+    display: flex;
+}
+
+.linetext{
+    padding-top: 65px;
+    padding-left: 10px;
+}
+
+.eventphoto{
+    margin-left: 70px ;
+}
+.eventtextunderline p{
+    line-height: 30px;
+    width: 400px;
+}
+
+
+.belowside img{
+    filter: brightness(30%);
+    width: 100% 
+}
+
+.belowcontent{
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+    position: relative;
+    bottom:175px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.below{
+    width: 420px;
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.belowheader{
+    display: flex;
+    flex-direction: row;
+}
+
+.belowdata{
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+.belowdata{
+    line-height: 29px;
+    text-align: center;
+}
+
+.belowdata span{
+    font-size:53px;
+    text-align: center;
+}
+
+.belowparagraph h4{
+    font-size: 30px;
+}
+
+.belowparagraph p{
+    font-size: 12px;
+}
+.belowcontent2{
+    display: flex;
+
+}
+
+.belowphoto{
+    position: relative;
+    top:50px;
+    left:60px
+}
+
+.belowphoto2{
+    position: relative;
+    left:300px;
+    top: 20px
+}
+
+
+.belowcontentpar p{
+    margin-top: 24px;
+}
+
+.below2{
+    width: 420px;
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 350px;
+
+}
+
+.belowcontentpar button{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    width:140px;
+    height: 35px;
+}
+
+footer{
+    height: 450px;
+    background-color: black;
+    color:white;
+    
+}
+
+.belowcontent2{
+    margin-bottom: 230px
+}
+
+.footers{
+    display: flex;
+    justify-content: space-evenly;
+}
+
