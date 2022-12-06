@@ -4,16 +4,57 @@
         
 }
 
+
+
 .nav{
     margin-left: 80px;
     margin-top: 40px;
     margin-bottom: 45px;
 }
 
+.nav h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 70px;
+}
+
+header img{
+    position: relative;
+    left:1400px;
+    bottom:120px
+}
+
 .nav-content{
     width: 550px;
     height: 300px;
 }
+
+.nav-content h1{
+    font-family: 'Heebo', sans-serif;
+    font-size: 90px
+}
+
+.nav-content h4{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    font-size: 37px;
+    width: 700px;
+    letter-spacing: 3px;
+}
+
+.nav-content h3{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.nav-content p{
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+
 .head-photo{
     margin-left: 80px;
     width: 80%;
@@ -25,7 +66,7 @@
 
 .nav-photo {
     position: relative;
-    left:300px;
+    left:200px;
     bottom:180px
 }
 
@@ -39,8 +80,34 @@
     background-color:black;
     width:553px;
     color:white;
-    padding:30px;
+    padding:50px;
 
+}
+
+
+.midtext h3{
+    font-family: 'Heebo', sans-serif;
+    font-weight:500;
+    font-size: 20px
+}
+
+.midcont{
+    padding-top: 60px;
+    line-height: 20px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 200;
+}
+
+.midtext span{
+    font-size: 40px;
+    position: relative;
+    top:6px
+}
+
+.midtext p{
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    padding-top: 10px;
 }
 
 .service span{
@@ -50,9 +117,7 @@
     font-family: 'Barlow', sans-serif;
 }
 
-.first{
-    margin-top: 80px;
-}
+
 .service{
 
     margin-left:300px;
@@ -70,12 +135,18 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-family:  'Heebo', sans-serif;
+    font-size: 13px;
 }
 
 .content{
     width: 400px;
     display: flex;
     flex-direction: column;
+}
+
+.content h3{
+    margin-top: 17px;
 }
 
 .contentphoto{
@@ -150,15 +221,23 @@ hr{
 
 .cookie h3{
     position: relative;
-    left: 87px;
-    bottom: 100px
+    left: 70px;
+    bottom: 100px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    
 }
 
 .cookie p{
     position: relative;
     bottom: 80px;
     text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
 }
+
 
 
 .divimg img{
@@ -185,25 +264,46 @@ hr{
 
 .divider span{
     font-size: 100px;
+    font-family: 'Heebo', sans-serif
 }
 
+.divider-author{
+    display: flex;
+    margin-top: 30px;
+}
+
+.divider-author p{
+    padding-top: 15px;
+    padding-left: 10px;
+}
 
 .contentwrapper{
     margin-left: 300px;
+    margin-bottom: 40px;
 }
 
 .contentwrapper p{
     width: 900px;
+    font-family: 'Heebo', sans-serif
 }
 
 .line{
     height: 2px;
-    width: 200px;
+    width: 340px;
     background-color: black;
     margin-bottom: 30px;
-    margin-top: 80px;
+    margin-top: 83px;
 }
 
+
+.linetext span{
+    font-weight:900;
+}
+
+.linetext h3{
+    font-weight: 400;
+    font-size: 28px;
+}
 .eventcontent{
     display: flex;
 }
@@ -211,24 +311,40 @@ hr{
     width: 400px;
     padding-left: 30px;
     padding-top: 30px;
-    
+    font-family: 'Heebo', sans-serif
+}
+
+.eventtextunderline h3{
+    font-size: 30px;
+}
+
+.eventtextunderline h5{
+    font-size: 20px;
 }
 
 .linecontent{
     display: flex;
 }
 
+
 .linetext{
     padding-top: 65px;
     padding-left: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
 }
+
 
 .eventphoto{
     margin-left: 70px ;
+    margin-top: 40px;
 }
+
 .eventtextunderline p{
     line-height: 30px;
-    width: 400px;
+    width: 300px;
+    font-family: 'Heebo', sans-serif 
 }
 
 
@@ -242,9 +358,11 @@ hr{
     justify-content: space-evenly;
     color:white;
     position: relative;
-    bottom:175px;
+    bottom:190px;
     margin-left: 100px;
     margin-right: 100px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
 }
 
 
@@ -259,16 +377,19 @@ hr{
 .belowheader{
     display: flex;
     flex-direction: row;
+    font-family: 'Heebo', sans-serif
 }
 
 .belowdata{
     font-size: 30px;
     margin-right: 30px;
-}
-
-.belowdata{
     line-height: 29px;
     text-align: center;
+}
+
+.belowdata h3{
+    position: relative;
+    top:20px
 }
 
 .belowdata span{
@@ -276,15 +397,20 @@ hr{
     text-align: center;
 }
 
+
 .belowparagraph h4{
     font-size: 30px;
+  
 }
 
 .belowparagraph p{
+    
     font-size: 12px;
+    
 }
 .belowcontent2{
     display: flex;
+    height: 650px;
 
 }
 
@@ -297,12 +423,13 @@ hr{
 .belowphoto2{
     position: relative;
     left:300px;
-    top: 20px
 }
 
 
 .belowcontentpar p{
     margin-top: 24px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 13px
 }
 
 .below2{
@@ -322,18 +449,67 @@ hr{
 }
 
 footer{
-    height: 450px;
+    padding-top: 80px;
+    height: 350px;
     background-color: black;
     color:white;
     
 }
 
-.belowcontent2{
-    margin-bottom: 230px
-}
+
 
 .footers{
     display: flex;
-    justify-content: space-evenly;
+    height: 270px;
+    padding-top: 10px;  
+    font-family: 'Heebo', sans-serif; 
+    font-weight: 200;
+    font-size: 13px
 }
 
+.footers h2{
+    font-family: 'Great Vibes', cursive;
+}
+.footertitle{
+    padding-top:25px;
+    height: 30px;
+    font-size: 40px;
+    padding-left: 320px;
+    padding-right: 150px;
+}
+
+.footerright p{
+    width: 30px;
+}
+
+.wearebest{
+    padding-right: 140px;
+}
+
+.wearebest2{
+    padding-right: 60px;
+}
+
+.footerright input{
+    margin-top: 10px;
+    width: 200px;
+    background-color:black;
+    border: solid 1px rgb(56, 56, 56);
+    height: 35px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.footerright button{
+    width: 43px;
+    background-color:rgb(189, 189, 189);
+    height: 40px;
+}
+
+.cont{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+}
